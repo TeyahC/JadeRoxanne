@@ -160,35 +160,6 @@ footer {
 }
 
 /* ===== Responsive ===== */
-@media (max-width: 768px) {
-  h1 {
-    font-size: 3rem;
-  }
-  h2 {
-    font-size: 1.6rem;
-  }
-  .hero h1 {
-    font-size: 3rem;
-    max-width: 500px;
-  }
-  .video-section iframe {
-    height: 250px;
-  }
-
-  /* Make header smaller */
-  header nav ul {
-    padding: 5px 0;
-  }
-
-  nav a {
-    font-size: 0.9rem;
-    padding: 3px 6px;
-  }
-
-  section {
-    padding-top: 60px; /* smaller padding to match smaller header */
-  }
-}
 
 /* ===== HEADER / NAV ===== */
 header {
@@ -229,4 +200,34 @@ nav a:hover {
 /* Add some top padding to sections so sticky header doesn't cover them */
 section {
   padding-top: 80px; /* header height + spacing */
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 1.6rem;
+  }
+  .hero h1 {
+    font-size: 3rem;
+    max-width: 500px;
+  }
+  .video-section iframe {
+    height: 250px;
+  }
+
+  /* Make header smaller */
+  header nav ul {
+    padding: 3px 0;
+  }
+
+  nav a {
+    font-size: 0.9rem;
+    padding: 2px 4px;
+  }
+
+  section {
+    padding-top: 60px; /* smaller padding to match smaller header */
+  }
 }
