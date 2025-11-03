@@ -219,15 +219,16 @@ section {
 
   /* Make header smaller */
   header nav ul {
-    padding: 1px 0;
+    padding: 6px 0; /* more vertical space around the links */
+    gap: 10px; /* less horizontal space between items */
   }
 
   nav a {
-    font-size: 1rem;
-    padding: 2px 4px;
+    font-size: 1rem; /* keep readable */
+    padding: 4px 8px; /* slightly more space inside the links */
   }
 
   section {
-    padding-top: 50px; /* smaller padding to match smaller header */
+    padding-top: 60px; /* offset for sticky header */
   }
 }
