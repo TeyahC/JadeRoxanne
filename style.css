@@ -168,6 +168,7 @@ footer {
   }
   .hero h1 {
     font-size: 3rem;
+    max-width: 500px;
   }
   .video-section iframe {
     height: 250px;
