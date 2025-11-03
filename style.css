@@ -218,16 +218,28 @@ section {
   }
 
   /* Make header smaller */
-  header nav ul {
-    padding: 1px 0;
-  }
+  @media (max-width: 768px) {
+    /* Adjust header height and padding around it */
+    header {
+      padding: 10px 0; /* more space above and below the nav */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* slightly bigger shadow for definition */
+    }
 
-  nav a {
-    font-size: 0.9rem;
-    padding: 2px 4px;
-  }
+    header nav ul {
+      display: flex;
+      justify-content: center;
+      gap: 6px; /* items closer together */
+      padding: 0; /* remove extra ul padding */
+    }
 
-  section {
-    padding-top: 60px; /* smaller padding to match smaller header */
+    nav a {
+      font-size: 1rem; /* slightly bigger text */
+      padding: 6px 10px; /* slightly more padding around links */
+      border-radius: 6px; /* rounded links for cozy look */
+    }
+
+    section {
+      padding-top: 70px; /* offset for sticky header */
+    }
   }
 }
