@@ -223,11 +223,11 @@ section {
   }
 
   nav a {
-    font-size: 0.9rem;
+    font-size: 1rem;
     padding: 2px 4px;
   }
 
   section {
-    padding-top: 60px; /* smaller padding to match smaller header */
+    padding-top: 70px; /* smaller padding to match smaller header */
   }
 }
