@@ -219,6 +219,9 @@ section {
 
   /* Make header smaller */
   @media (max-width: 768px) {
+    body {
+      overflow-x: hidden;
+    }
     /* Adjust header height and padding around it */
     header {
       padding: 10px 0; /* more space above and below the nav */
@@ -228,7 +231,7 @@ section {
     header nav ul {
       display: flex;
       justify-content: center;
-      gap: 6px; /* items closer together */
+      gap: 1px; /* items closer together */
       padding: 0; /* remove extra ul padding */
     }
 
