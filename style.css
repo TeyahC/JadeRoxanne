@@ -465,6 +465,9 @@ blockquote {
 }
 
 @media (max-width: 768px) {
+  body {
+    margin-top: 20px;
+  }
   h1 {
     font-size: 3rem;
   }
