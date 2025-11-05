@@ -278,10 +278,21 @@
     <script>
       const hamburger = document.getElementById("hamburger");
       const nav = document.querySelector("nav ul");
+      const navLinks = document.querySelectorAll("nav a");
 
       hamburger.addEventListener("click", () => {
         hamburger.classList.toggle("active");
         nav.classList.toggle("active");
+      });
+
+      navLinks.forEach((link) => {
+        link.addEventListener("click", () => {
+          // Only close if the mobile menu is open
+          if (nav.classList.contains("active")) {
+            nav.classList.remove("active");
+            hamburger.classList.remove("active");
+          }
+        });
       });
     </script>
 
