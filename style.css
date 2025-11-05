@@ -353,13 +353,7 @@ blockquote {
 /* ===== ABBA SHOW SECTION ===== */
 #abba-show {
   text-align: center;
-  padding: 80px 20px;
-}
-
-#abba-show h3 {
-  font-size: 1.8rem;
-  color: #2d2d2f;
-  margin-bottom: 30px;
+  padding: 25px 20px;
 }
 
 /* Layout: Text left, Image right */
