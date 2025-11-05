@@ -23,6 +23,12 @@
           <li><a href="#testimonial">Testimonials</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
+
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
       </nav>
     </header>
 
@@ -268,6 +274,16 @@
       <a href="#contact-form" class="contact-button"
         >Book a Visit / Request Brochure</a -->
     </section>
+
+    <script>
+      const hamburger = document.getElementById("hamburger");
+      const nav = document.querySelector("nav ul");
+
+      hamburger.addEventListener("click", () => {
+        hamburger.classList.toggle("active");
+        nav.classList.toggle("active");
+      });
+    </script>
 
     <!-- ===== FOOTER ===== -->
     <footer>&copy; 2025 Jade Roxanne | Music & Wellbeing</footer>
