@@ -591,6 +591,8 @@ blockquote {
 @media (max-width: 768px) {
   body::before {
     background: url("background2.jpg") no-repeat;
+    background-size: cover;
+    background-position: left 30%; /* moves image more to the left on phone */
   }
   header nav ul {
     position: fixed;
