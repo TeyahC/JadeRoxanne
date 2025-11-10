@@ -589,6 +589,9 @@ blockquote {
 
 /* ===== MOBILE MENU ===== */
 @media (max-width: 768px) {
+  body::before {
+    background: url("background2.jpg") no-repeat;
+  }
   header nav ul {
     position: fixed;
     top: 0;
