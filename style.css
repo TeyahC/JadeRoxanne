@@ -593,7 +593,7 @@ blockquote {
     background: url("background2.jpg") no-repeat center center;
     background-size: contain; /* ensures the whole image fits */
     background-position: center center; /* keeps both people in view */
-    opacity: 0.5;
+    opacity: 0.3;
   }
   header nav ul {
     position: fixed;
