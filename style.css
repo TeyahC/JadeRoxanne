@@ -6,16 +6,19 @@ body::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url("background.jpg") center/cover no-repeat;
-  opacity: 0.5; /* 50% transparency */
-  z-index: -1; /* keeps it behind everything */
+  background: url("background.jpg") no-repeat;
+  background-size: cover; /* make it cover the whole area */
+  background-position: center 30%; /* horizontal center, vertical 30% down */
+  opacity: 0.3;
+  z-index: -1;
 }
+
 :root {
-  --light-bg: #e8e0eb;
+  --light-bg: #ece2fd;
   --mid-bg: #d4c9d9;
   --dark-bg: #2d2d2f;
-  --accent1: #9a83b4;
-  --accent2: #aa9abb;
+  --accent1: #ab97de;
+  --accent2: #c6b4ea;
   --text-dark: #2d2d2f;
   --text-light: #ffffff;
 }
@@ -349,7 +352,7 @@ blockquote {
   font-size: 1.1rem;
   max-width: 600px;
   margin: 0 auto;
-  background: #e8e0eb;
+  background: var(--accent2);
   padding: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -424,11 +427,11 @@ blockquote {
 /* Quote */
 #abba-show blockquote {
   font-style: italic;
-  color: #2d2d2f;
+  color: var(--text-light);
   font-size: 1.1rem;
   max-width: 600px;
   margin: 0 auto;
-  background: #d4c9d9;
+  background: var(--accent2);
   padding: 20px;
   border-left: 4px solid #9a83b4;
   border-radius: 8px;
