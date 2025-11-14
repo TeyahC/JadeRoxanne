@@ -476,6 +476,38 @@ blockquote {
   text-align: right;
 }
 
+.back-button {
+  display: inline-block;
+  margin: 20px auto;
+  padding: 12px 25px;
+  background-color: var(--accent2);
+  color: var(--text-dark);
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 1.05rem;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background-color: var(--accent1);
+  transform: translateY(-2px);
+}
+
+.music-session-image {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.music-session-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
 @media (max-width: 768px) {
   body {
     margin-top: 20px;
