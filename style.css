@@ -213,7 +213,7 @@ footer {
 /* ===== Responsive ===== */
 
 /* ===== HEADER / NAV ===== */
-header {
+#mainheader {
   position: sticky;
   top: 0;
   width: 100%;
