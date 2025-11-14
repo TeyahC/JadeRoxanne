@@ -213,7 +213,7 @@ footer {
 /* ===== Responsive ===== */
 
 /* ===== HEADER / NAV ===== */
-#mainheader {
+header {
   position: sticky;
   top: 0;
   width: 100%;
@@ -526,7 +526,7 @@ blockquote {
   }
 
   /* Make header smaller */
-  #mainheader nav ul {
+  header nav ul {
     padding: 1px 0;
   }
 
