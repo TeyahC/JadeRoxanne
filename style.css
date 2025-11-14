@@ -526,7 +526,7 @@ blockquote {
   }
 
   /* Make header smaller */
-  header nav ul {
+  #mainheader nav ul {
     padding: 1px 0;
   }
 
