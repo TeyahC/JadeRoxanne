@@ -605,6 +605,26 @@ blockquote {
     display: flex;
   }
 }
+.abba-preview-link {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 26px;
+  background-color: var(--accent2);
+  color: var(--text-dark);
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 1.05rem;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.abba-preview-link:hover {
+  background-color: var(--accent1);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
 
 /* ===== Video Section ===== 
 .video-section {
