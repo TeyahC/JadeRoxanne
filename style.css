@@ -442,6 +442,51 @@ blockquote {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
+.seo-hidden {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+/* Mobile-only contact button */
+.mobile-contact-button {
+  display: none;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+
+  margin: 10px auto;
+  padding: 12px 25px;
+
+  background-color: var(--accent2);
+  color: var(--text-dark);
+
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 1.05rem;
+  text-align: center;
+  text-decoration: none;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+
+  cursor: pointer;
+}
+
+/* Hover / tap feedback */
+.mobile-contact-button:hover {
+  transform: translateY(-2px);
+}
+
+/* Mobile only */
+@media (max-width: 768px) {
+  .mobile-contact-button {
+    display: block;
+  }
+}
+
 @media (max-width: 768px) {
   body {
     margin-top: 20px;
